@@ -33,7 +33,7 @@ Return VALID JSON only (no extra prose, no markdown). Example:
 export async function getLocationFromMistral(criteriasArr) {
   const criteriaString = criteriasArr.join(", ")
   try {
-    const response = await fetch("http://localhost:3001/api/chat", {
+    const response = await fetch(import.meta.env.VITE_API_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
