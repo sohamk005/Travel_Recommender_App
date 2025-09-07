@@ -1,4 +1,4 @@
-import "../css/Search.css"
+import "../css/search.css"
 import React from "react"
 import CriteriaList from "../components/CriteriaList"
 import ClaudeLocation from "../components/ClaudeLocation"
