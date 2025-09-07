@@ -1,0 +1,65 @@
+/* Navbar container */
+.navbar {
+  background-color: burlywood;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 60px; /* Increased height for better spacing */
+  font-family: Inter, sans-serif;/* Optional: consistent font */
+  color: white;
+}
+
+/* Logo container */
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo image */
+#logo-img {
+  width: 60px;
+  margin-right: 10px;
+  height: 50px;
+}
+
+/* Logo text or span */
+#logo span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0; 
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2.5rem;
+  margin-left: 50px;
+  align-items: center;
+}
+#logo a{
+   text-decoration: none;
+   color: white;;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+#logo a:hover{
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  color: rgb(61, 56, 56);
+}
+
+.navbar-links a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar-links a:hover {
+  font-size: 1.2rem;
+  color: rgb(61, 56, 56);
+}

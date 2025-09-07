@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: whitesmoke;
+    color: #333;
+}
+
+main {
+    padding: 60px 30px;
+    /*ackground-image: url(src/images/mon.png);*/
+    background-repeat: no-repeat;
+    background-position: right 60%;
+}
+
+main > h1 {
+    margin: 0;
+    font-size: 2.4rem;
+}
+
+.features-list {
+    margin-top: 46px;
+    max-width: 500px;
+}
+
+.features-list > li {
+    padding-block: 10px;
+    font-size: 1.5rem;
+}
+
+.features-list > li::marker {
+    color: bisque;
+    font-size: 2.5rem;
+}
